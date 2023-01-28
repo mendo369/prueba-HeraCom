@@ -1,21 +1,21 @@
 [
     {
-        "Name":"Plan1",
+        "Name":"Plan Familiar",
+        "Description":"Lorem impsum dolor sit amet conecticut",
+        "img":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.es%2Ficono-gratis%2Fpersonas_878719&psig=AOvVaw0mU9xoXbCWQCOcJJdyR0PZ&ust=1675000904404000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOiam-O26vwCFQAAAAAdAAAAABAQ"
+    },
+    {
+        "Name":"Plan Empresarial",
         "Description":"Lorem impsum dolor sit amet conecticut",
         "img":""
     },
     {
-        "Name":"Plan1",
+        "Name":"Plan general",
         "Description":"Lorem impsum dolor sit amet conecticut",
         "img":""
     },
     {
-        "Name":"Plan1",
-        "Description":"Lorem impsum dolor sit amet conecticut",
-        "img":""
-    },
-    {
-        "Name":"Plan1",
+        "Name":"Other plan",
         "Description":"Lorem impsum dolor sit amet conecticut",
         "img":""
     }
