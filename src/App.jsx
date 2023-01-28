@@ -13,7 +13,7 @@ function App() {
       .then((res) => res.json())
       .then((plans) => setPlans(plans));
   };
-
+ 
   useEffect(() => {
     fetchPlans();
     console.log(plans);
