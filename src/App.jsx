@@ -16,7 +16,6 @@ function App() {
  
   useEffect(() => {
     fetchPlans();
-    console.log(plans);
   }, []);
 
   return (

@@ -2,7 +2,7 @@
     width: 60vw;
     display: grid;
     grid-auto-flow: row;
-    gap: 20px;
+    gap: 25px;
     margin: auto;
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Img from "../../assets/878719.png"
+import ImgPrueba from "../assets/878719.png"
 
 function Plan({ plan }) {
   return (
@@ -18,7 +18,7 @@ function Plan({ plan }) {
         </div>
         </div>
       <div className="image">
-        <img src={Img} alt="image" />
+        <img src={ImgPrueba} alt="image" />
       </div>
     </div>
   );
