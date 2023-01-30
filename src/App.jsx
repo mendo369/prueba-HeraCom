@@ -1,26 +1,12 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import ListOfPlans from "./Components/Plans/ListOfPlans";
+import React, { useEffect, useState } from "react";
+import Home from "./pages/Home";
 
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [plans, setPlans] = useState([]);
-
-  const fetchPlans = () => {
-    fetch("../public/planes.json")
-      .then((res) => res.json())
-      .then((plans) => setPlans(plans));
-  };
- 
-  useEffect(() => {
-    fetchPlans();
-  }, []);
-
   return (
     <div className="App">
-      <ListOfPlans plans={plans} />
+      <Home />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />

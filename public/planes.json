@@ -2,21 +2,45 @@
     {
         "Name":"Plan Familiar",
         "Description":"Lorem impsum dolor sit amet conecticut",
-        "img":"PlanFamiliar"
+        "Price": 60000,
+        "img":"PlanFamiliar",
+        "Components":{
+            "MB": 3,
+            "Routers": 1,
+            "MaxConnections": 4
+        }
     },
     {
         "Name":"Plan Empresarial",
         "Description":"Lorem impsum dolor sit amet conecticut",
-        "img":"PlanEmpresarial"
+        "Price": 120000,
+        "img":"PlanEmpresarial",
+        "Components":{
+            "MB": 3,
+            "Routers": 1,
+            "MaxConnections": 4
+        }
     },
     {
         "Name":"Plan general",
         "Description":"Lorem impsum dolor sit amet conecticut",
-        "img":""
+        "Price": 90000,
+        "img":"",
+        "Components":{
+            "MB": 3,
+            "Routers": 1,
+            "MaxConnections": 4
+        }
     },
     {
         "Name":"Other plan",
         "Description":"Lorem impsum dolor sit amet conecticut",
-        "img":""
+        "Price": 0,
+        "img":"",
+        "Components":{
+            "MB": 3,
+            "Routers": 1,
+            "max-connextions": 4
+        }
     }
 ]

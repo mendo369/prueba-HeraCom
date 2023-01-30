@@ -1,0 +1,43 @@
+.Header{
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    color: aliceblue;
+    background-color: rgb(96, 11, 109);
+    position: relative;
+}
+
+.heracom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.about-us{
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.about-us div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.Plans{
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
