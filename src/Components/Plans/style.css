@@ -184,7 +184,7 @@ background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
         gap: 10px;
     }
 
-    .plan .card-border .card .info .plan-name{
+    .plan .info .plan-name{
         font-size: 2em;
     }
 
