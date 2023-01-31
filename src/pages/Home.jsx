@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import ListOfPlans from "../Components/Plans/ListOfPlans";
+import CarouselPlans from "../Components/carousel/CarouselPlans";
 
 import "./Home.css";
 
@@ -71,7 +72,8 @@ function Home() {
         <div>¿quienes somos?</div>
       </section>
       <section className="Plans">
-        <ListOfPlans plans={plans} />
+        {/* <ListOfPlans plans={plans} /> */}
+        <CarouselPlans items={plans} />
       </section>
     </main>
   );
