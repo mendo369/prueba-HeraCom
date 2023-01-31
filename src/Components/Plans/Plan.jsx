@@ -1,22 +1,26 @@
 import React from "react";
 
 import ImgPrueba from "../../assets/878719.png";
+import LogoRe from "../../assets/react.svg";
 
 function Plan({ plan }) {
   return (
     <div className="plan">
-      <div className="card">
-        <div className="card-image">
-          <img src={ImgPrueba} alt="plan image" />
-        </div>
-        <div className="plan-components">
-          <ul className="plan-list-components">
-            <li>{plan.Components.MB} MB</li>
-            <li>{plan.Components.Routers} Router</li>
-            <li>
-              {plan.Components.MaxConnections} dispositivos maximos conectados
-            </li>
-          </ul>
+      <div className="card-border">
+        <div className="card">
+          <div className="card-image">
+            <img src={LogoRe} alt="plan image" />
+          </div>
+          <div className="plan-components">
+            <ul className="plan-list-components">
+              <li>~{plan.Components.MB} MB</li>
+              <li>~{plan.Components.Routers} Router</li>
+              <li>
+                ~{plan.Components.MaxConnections} dispositivos maximos
+                conectados
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="info">

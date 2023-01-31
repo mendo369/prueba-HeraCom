@@ -17,15 +17,43 @@
 }
 
 .plan .card{
-    
-    border-radius: 50%;
-    width: 50%;
-    height: 80%;
+    width: 95%;
+    height: 95%;
     margin: auto;
-    overflow: hidden;
-    background-color: blueviolet;
+    background-color: rgb(252, 252, 252);
     display: grid;
     grid-template-rows: 60% 1fr;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.plan .card-border{
+    width: 52%;
+    height: 82%;
+    margin: auto;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    box-shadow: 0px 0px 4px black;
+    background-color: gold;
+    animation: borderCard 5s linear infinite;
+    position: relative;
+    filter: drop-shadow(0px 0px 4px red);
+}
+
+@keyframes borderCard {
+    0% {
+        transform: translate(0 , 5px);
+      }
+      50% {
+        transform: translate(0px, -10px);
+      }
+      100% {
+        transform: translate(0px, 5px);
+      }
 }
 
 .card .card-image{
@@ -57,16 +85,20 @@
     font-size: 3em;
     letter-spacing: 1px;
     font-family: sans-serif;
-    background: url('../../assets/878719.png');
+    /* background: url('../../assets/878719.png'); */
+    background-image: linear-gradient(blue, blueviolet, violet);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textA 1.5s linear infinite;
+    animation: textA 5s linear infinite;
 }
 
 @keyframes textA{
-    from {background-position: 0% 50%;}
-    to {background-position: 100% 100%;}
+    /* from {background-position: 0% 50%;}
+    to {background-position: 100% 100%;} */
+    100% {
+        filter: hue-rotate(360deg);
+      }
 }
 
 .plan .info .plan-description{
