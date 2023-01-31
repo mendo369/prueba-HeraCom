@@ -43,7 +43,12 @@ background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
     height: 70%;
     margin: auto;
     clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
-    background-color: gold;
+    transform: translate(0 , 5px);
+    background-color: #ff0012;
+opacity: 0.9;
+background-image:  linear-gradient(30deg, #ffef00 12%, transparent 12.5%, transparent 87%, #ffef00 87.5%, #ffef00), linear-gradient(150deg, #ffef00 12%, transparent 12.5%, transparent 87%, #ffef00 87.5%, #ffef00), linear-gradient(30deg, #ffef00 12%, transparent 12.5%, transparent 87%, #ffef00 87.5%, #ffef00), linear-gradient(150deg, #ffef00 12%, transparent 12.5%, transparent 87%, #ffef00 87.5%, #ffef00), linear-gradient(60deg, #ffef0077 25%, transparent 25.5%, transparent 75%, #ffef0077 75%, #ffef0077), linear-gradient(60deg, #ffef0077 25%, transparent 25.5%, transparent 75%, #ffef0077 75%, #ffef0077);
+background-size: 28px 49px;
+background-position: 0 0, 0 0, 14px 25px, 14px 25px, 0 0, 14px 25px;
     animation: borderCard 5s linear infinite;
     position: relative;
     overflow: hidden;
@@ -52,15 +57,15 @@ background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
 @keyframes borderCard {
     0% {
         transform: translate(0 , 5px);
-        background-color: #eeff00;;
+        /* background-color: #eeff00;; */
       }
       50% {
         transform: translate(0px, -10px);
-        background-color: rgb(255, 210, 9);
+        /* background-color: rgb(255, 210, 9); */
       }
       100% {
         transform: translate(0px, 5px);
-        background-color: #eeff00;
+        /* background-color: #eeff00; */
       }
 }
 
