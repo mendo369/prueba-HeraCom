@@ -8,7 +8,7 @@ function Home() {
   const [plans, setPlans] = useState([]);
 
   const fetchPlans = () => {
-    fetch("../../public/planes.json")
+    fetch("public/planes.json")
       .then((res) => res.json())
       .then((plans) => setPlans(plans));
   };
