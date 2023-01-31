@@ -7,20 +7,25 @@
 }
 
 .plan{
-    display: grid;
+    /* display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 60%;
+    grid-template-columns: 1fr 60%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 100vh;
     align-items: center;
     position: relative;
     /* justify-content: space-between; */
+    background: rgb(18,4,23);
+background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
 }
 
 .plan .card{
     width: 95%;
     height: 95%;
     margin: auto;
-    background-color: rgb(252, 252, 252);
+    background-color: #fff;
     display: grid;
     grid-template-rows: 60% 1fr;
     clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
@@ -34,7 +39,7 @@
 }
 
 .plan .card-border{
-    width: 60%;
+    width: 30%;
     height: 70%;
     margin: auto;
     clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
@@ -77,17 +82,27 @@
 }
 
 .card .plan-components{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     font-size: 1.2em;
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 .plan .info{
+    padding: 10px;
     display: grid;
     grid-auto-flow: row;
+    color: #fff;
     gap: 2em;
-    width: 80%;
+    width: 600px;
     margin: auto;
+    padding:20px;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.15), rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.47);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
 }
 
 .plan .info .plan-name{
@@ -96,7 +111,7 @@
     letter-spacing: 1px;
     font-family: sans-serif;
     /* background: url('../../assets/878719.png'); */
-    background-image: linear-gradient(blue, blueviolet);
+    background-image: linear-gradient(yellow, gold, orange);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -113,6 +128,7 @@
 
 .plan .info .plan-description{
     font-size: 1.3em;
+    line-height: 1.3em;
 }
 
 .info .buttons{
@@ -124,7 +140,7 @@
 }
 
 .info .plan-price{
-    color: blue;
+    color: rgb(155, 155, 212);
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 1px;
@@ -134,15 +150,21 @@
     font-size: 1.5em;
     border: none;
     cursor: pointer;
-    color: blueviolet;
-    background-color: #fff;
     padding: 5px;
-    border-bottom: 1px solid blueviolet;
-    border-top: 1px solid blueviolet;
+    /* border-bottom: 1px solid blueviolet;
+    border-top: 1px solid blueviolet; */
+    transition: all .5s ease-out;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.4), rgba(255,255,255,0.3));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.17);
+    border: 1px solid rgba(255,255,255, 0.18);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .info .buttons button:hover{
     font-size: 1.5em;
-    letter-spacing: 2px;
-    transition: .5s ease-out;
+    letter-spacing: 1px;
+    transition: all .5s ease-out;
 }
