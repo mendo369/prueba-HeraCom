@@ -181,6 +181,11 @@ background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
 
     .plan .card-border .card{
         grid-template-rows: 50% 1fr;
+        gap: 10px;
+    }
+
+    .plan .card-border .card .info .plan-name{
+        font-size: 2em;
     }
 
     .plan .info{
