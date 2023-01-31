@@ -32,7 +32,7 @@
     grid-auto-flow: row;
     gap: 25px;
     margin: auto;
-    background-color: blueviolet;
+    background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
