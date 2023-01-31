@@ -136,7 +136,14 @@
     border: none;
     cursor: pointer;
     color: blueviolet;
+    background-color: #fff;
     padding: 5px;
     border-bottom: 1px solid blueviolet;
     border-top: 1px solid blueviolet;
+}
+
+.info .buttons button:hover{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    transition: .5s ease-out;
 }
