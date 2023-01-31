@@ -14,7 +14,53 @@ function Home() {
   };
 
   useEffect(() => {
-    fetchPlans();
+    // fetchPlans();
+    setPlans([
+      {
+        Name: "Plan Familiar",
+        Description: "Lorem impsum dolor sit amet conecticut",
+        Price: 60000,
+        img: "PlanFamiliar",
+        Components: {
+          MB: 3,
+          Routers: 1,
+          MaxConnections: 4,
+        },
+      },
+      {
+        Name: "Plan Empresarial",
+        Description: "Lorem impsum dolor sit amet conecticut",
+        Price: 120000,
+        img: "PlanEmpresarial",
+        Components: {
+          MB: 3,
+          Routers: 1,
+          MaxConnections: 4,
+        },
+      },
+      {
+        Name: "Plan general",
+        Description: "Lorem impsum dolor sit amet conecticut",
+        Price: 90000,
+        img: "",
+        Components: {
+          MB: 3,
+          Routers: 1,
+          MaxConnections: 4,
+        },
+      },
+      {
+        Name: "Other plan",
+        Description: "Lorem impsum dolor sit amet conecticut",
+        Price: 0,
+        img: "",
+        Components: {
+          MB: 3,
+          Routers: 1,
+          "max-connextions": 4,
+        },
+      },
+    ]);
   }, []);
   return (
     <main className="body-app">
