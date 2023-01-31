@@ -173,7 +173,7 @@ background: linear-gradient(266deg, rgb(66, 15, 85) 0%, rgb(34, 8, 77) 100%);
     transition: all .3s ease-out;
 }
 
-@media(max-width:400px){
+@media(max-width:500px){
     .plan .card-border{
         width: 70%;
         height: 35%
