@@ -13,11 +13,10 @@ function Plan({ plan }) {
           </div>
           <div className="plan-components">
             <ul className="plan-list-components">
-              <li>~{plan.Components.MB} MB</li>
-              <li>~{plan.Components.Routers} Router</li>
+              <li>{plan.Components.MB} MB</li>
+              <li>{plan.Components.Routers} Router</li>
               <li>
-                ~{plan.Components.MaxConnections} dispositivos maximos
-                conectados
+                {plan.Components.MaxConnections} dispositivos maximos conectados
               </li>
             </ul>
           </div>
